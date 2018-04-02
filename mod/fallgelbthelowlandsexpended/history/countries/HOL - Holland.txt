@@ -124,13 +124,13 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_convoys = 500
+set_convoys = 534
 set_stability = 0.75
 
 create_country_leader = {
 	name = "Hendrikus Colijn"
 	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
-	picture = "portait_hol_hendrukus_colijn.dds"
+	picture = "gfx/leaders/HOL/Hendrikus_Colijn"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -141,7 +141,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Anton Mussert"
 	desc = "POLITICS_ANTON_MUSSERT_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	picture = "gfx/leaders/HOL/Anton_Mussert.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -163,7 +163,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hendrikus Colijn"
 	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
-	picture = "GFX_portrait_holland_hendrikus_colijn"
+	picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
@@ -173,7 +173,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Godfried van Voorst tot Voorst Jr."
-	portrait_path = "GFX_portait_hol_godfried_van_voorst_tot_voorst.dds"
+	portrait_path = "gfx/leaders/HOL/Godfried_van_Voorst_van_Voorst.dds"
 	traits = { }
 	skill = 4
 	attack_skill = 2
@@ -183,7 +183,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Henri Winkelman"
-	portrait_path = "GFX_portait_hol_henri_gerard_winkelman.dds"
+	portrait_path = "gfx/leaders/HOL/Henri_Gerard_Winkelman.dds"
 	traits = { }
 	skill = 4
 	attack_skill = 3
@@ -194,7 +194,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Pieter Willem Scharroo"
-	portrait_path = "GFX_portait_hol_pieter_willem_scharroo.dds"
+	portrait_path = "gfx/leaders/HOL/Pieter_Willem_Scharroo.dds"
 	traits = { }
 	skill = 4
 	attack_skill = 2
@@ -205,7 +205,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Christiaan Boers"
-	portrait_path = "GFX_portait_hol_christiaan_boers.dds"
+	portrait_path = "gfx/leaders/HOL/Christiaan_Boers.dds"
 	traits = { }
 	skill = 4
 	attack_skill = 3
@@ -225,7 +225,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Karel Doorman"
-	portrait_path = "GFX_portait_hol_karel_doorman.dds"
+	portrait_path = "gfx/leaders/HOL/Karel_Doorman.dds"
 	traits = { superior_tactician }
 	skill = 3
 }
