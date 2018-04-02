@@ -11,6 +11,160 @@ focus_tree = {
 	}
 	default = no
 
+	focus = {
+		id = HOL_1
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 5
+		y = 0
+		cost = 10
+	
+		available_if_capitulated = yes
 
+		completion_reward = {
+			add_stability = 0.15 
+			add_political_power = 50 
+			}
+		}
+	
+	focus = {
+		id = HOL_2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = HOL_1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_popularity = { ideology = fascism popularity = 0.15 } 
+			}
+		}
+	focus = {
+		id = HOL_3
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 2
+		cost = 10
+		prerequisite = { focus = HOL_2 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = { ideology = fascism popularity = 0.2 } 
+			
+			}
+		}
+	focus = {
+		id = HOL_4
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 3
+		cost = 10
+		prerequisite = { focus = HOL_3 }
+		available_if_capitulated = yes
+
+		
+		completion_reward = {
+			add_popularity = { ideology = fascism popularity = 0.2 } 
+			add_stability = -0.1 
+			
+		}
+	}
+		
+	focus = {
+		id = HOL_5
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+		prerequisite = { focus = HOL_4 }
+		completion_reward = {
+			set_politics = { ruling_party = fascism elections_allowed = no } 
+			add_popularity = { ideology = fascism popularity = 0.15 } 
+			} 
+		}
+	focus = {
+		id = HOL_6.1
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+		prerequisite = { focus = HOL_5 }
+		completion_reward = {
+			army_experience = 5
+			}
+		}
+	focus = {
+		id = HOL_6.2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 2
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+		prerequisite = { focus = HOL_5 }
+		completion_reward = {
+			army_experience = 5
+			
+			}
+		}
+	focus = {
+		id = HOL_7
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 3
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+		prerequisite = { focus = HOL_2 }
+		completion_reward = {
+			army_experience = 5
+			}
+		}
+	focus = {
+		id = HOL_8
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 3
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+		prerequisite = { focus = HOL_7 }
+		completion_reward = {
+			army_experience = 5
+			}
+		}
+	focus = {
+		id = HOL_9
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 3
+		y = 4
+		cost = 10
+		prerequisite = { focus = HOL_8 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			}
+		}
+	
+	focus = {
+		id = HOL_10
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 5
+		y = 6
+		cost = 10
+		available = { has_government = fascism }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			}
+		}
+	
 	
 }		
