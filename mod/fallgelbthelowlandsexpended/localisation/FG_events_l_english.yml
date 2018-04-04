@@ -1,0 +1,14 @@
+﻿l_english:
+ # Holland
+ hol.1.t:0 "The Games of the XI Olympiad"
+ hol.1.d:0 "The Netherlands are invited for the 1936 summer olympics. Our nation send 165 competitors, who take part in 15 different sports. At the opening ceremony our nation needs an flag bearer. We have two options:
+ First is Daan Kagchelland, a famous sailer who has a great potetional but he's still young. The second choice is Rein de Waal, our captain of the hockey team who is experienced. He also represented our country in the Summer Olympics of 1928 in our own nation!
+Who shall recieve this honour?"
+ hol.1.o1:0 "Daan Kagchelland"
+ hol.1.o2:0 "Rein de Waal"
+
+# NewsEvents
+fg_news.1:0 "Aftermath of the XI Olympiad"
+fg_news.1.d:0 "We, The Netherlands, are a small country but we ranked 9th on the leaderboard. With 6 golden, 4 silver and 7 bronze medals we could be proud of our nation and our athletes!"
+fg_news.1.o1:0 "Let us recieve them as heroes."
+    

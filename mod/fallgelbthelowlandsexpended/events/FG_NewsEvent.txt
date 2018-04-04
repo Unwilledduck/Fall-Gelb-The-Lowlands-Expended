@@ -1,0 +1,27 @@
+﻿add_namespace = fg_news
+
+# 1936 Olympics Aftermath
+country_event = {
+	id = fg_news.1
+	title = fg_news.1.t
+	desc = fg_news.1.d
+	picture = GFX_news_event_holland_1936_olympics_aftermath
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = HOL
+		NOT = { has_global_flag = olympics_1936 }
+		NOT = { has_global_flag = holland_olympics_1936 }
+		NOT = { has_global_flag = holland_olympics_1936_aftermath }
+		date > 1936.8.16
+	}
+	
+	immediate = {
+		set_country_flag = holland_olympics_1936_aftermath
+	}
+	
+	option = {
+		name = fg_news.1.o1
+	}
+}

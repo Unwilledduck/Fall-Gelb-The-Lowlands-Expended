@@ -35,33 +35,7 @@ country_event = {
 		
 		news_event = {
 			hours = 6
-			id = hol_news.1
+			id = fg_news.1
 		}
-	}
-}
-
-# 1936 Olympics Aftermath
-country_event = {
-	id = hol.2
-	title = hol.2.t
-	desc = hol.2.d
-	picture = GFX_report_event_holland_1936_olympics_aftermath
-	
-	fire_only_once = yes
-	
-	trigger = {
-		original_tag = HOL
-		NOT = { has_global_flag = olympics_1936 }
-		NOT = { has_global_flag = holland_olympics_1936 }
-		NOT = { has_global_flag = holland_olympics_1936_aftermath }
-		date > 1936.8.16
-	}
-	
-	immediate = {
-		set_country_flag = holland_olympics_1936_aftermath
-	}
-	
-	option = {
-		name = hol.2.o1
 	}
 }
