@@ -2053,6 +2053,7 @@
  continuous_restrict_freedom:0 "Suppress Subjects"
  continuous_restrict_freedom_desc:0 "Our colonial subjects have gotten rather silly ideas about things like "self-determination" or "national independence". It is time to disabuse them of these notions."
  HOL_1:0 "Deal with the Pillarisation"
+ HOL_1_desc:0 "The population of The Netherlands is strongly devided in pillars. This seriously damages the national unity which we so strongly desire!"
  HOL_2:0 "Common Cause"
  HOL_3:0 "United Netherlands"
  HOL_4:0 "Fascism on the Rise"
