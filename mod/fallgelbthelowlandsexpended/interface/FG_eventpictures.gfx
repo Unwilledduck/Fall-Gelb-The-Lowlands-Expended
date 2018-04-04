@@ -1,0 +1,14 @@
+spriteTypes = {
+	
+	# GFX Reports
+	spriteType = {
+		name = "GFX_report_event_holland_1936_olympics"
+		texturefile = "gfx/event_pictures/report_event_holland_1936_olympics.dds"
+	}
+
+	# GFX News
+	spriteType = {
+		name = "GFX_news_event_holland_1936_olympics_aftermath"
+		texturefile = "gfx/event_pictures/news_event_holland_1936_olympics_aftermath.dds"
+	}
+}
