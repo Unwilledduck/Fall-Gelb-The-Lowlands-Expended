@@ -135,7 +135,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = HOL_7 }
 		completion_reward = {
-			army_experience = 5
+			add_equipment_to_stockpile = { type = light_tank_equipment_2  amount = 50 producer = GER }
 			}
 		}
 	focus = {
@@ -156,15 +156,87 @@ focus_tree = {
 		id = HOL_10
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 5
-		y = 6
+		y = 5
 		cost = 10
 		available = { has_government = fascism }
 		available_if_capitulated = yes
 
 		completion_reward = {
+			 add_manpower = 125000
+			}
+		}
+	focus = {
+		id = HOL_11
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 6
+		cost = 1
+		available = { has_government = fascism }
+		available_if_capitulated = yes
+		prerequisite = { focus = HOL_10 }
+
+		completion_reward = {
+			 create_corps_commander = { name = "Meinoud Rost van Tonningen" picture = "gfx/leaders/HOL/meinoud.dds" traits = { } skill = 3 } 
+			}
+		}
+	focus = {
+		id = HOL_12
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 3
+		y = 6
+		cost = 1
+		available = { has_government = fascism }
+		available_if_capitulated = yes
+		prerequisite = { focus = HOL_10 }
+
+		completion_reward = {
 			army_experience = 5
 			}
 		}
-	
+	focus = {
+		id = HOL_13
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 5
+		y = 6
+		cost = 1
+		available = { has_government = fascism }
+		available_if_capitulated = yes
+		prerequisite = { focus = HOL_10 }
+
+		completion_reward = {
+				add_equipment_to_stockpile = { type = light_tank_equipment_2 amount = 150 producer = GER } 
+				add_equipment_to_stockpile = { type = heavy_fighter_equipment_2 amount = 150 producer = GER } 
+				
+
+			}
+		}
+	focus = {
+		id = HOL_14
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 7
+		y = 6
+		cost = 1
+		available = { has_government = fascism }
+		available_if_capitulated = yes
+		prerequisite = { focus = HOL_10 }
+
+		completion_reward = {
+			army_experience = 20
+			}
+		}
+	focus = {
+		id = HOL_15
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 9
+		y = 6
+		cost = 1
+		available = { has_government = fascism }
+		available_if_capitulated = yes
+		prerequisite = { focus = HOL_10 }
+
+		completion_reward = {
+			add_research_slot = 1
+			}
+		}
 	
 }		
