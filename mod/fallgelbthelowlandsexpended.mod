@@ -3,4 +3,4 @@ path="mod/fallgelbthelowlandsexpended/"
 tags={
 	"Historical"
 }
-supported_version="1.5.1"
+supported_version="1.5.2"
